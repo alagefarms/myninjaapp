@@ -1,0 +1,23 @@
+<html>
+	<head>
+	<script type="text/javascript" language="javascript">
+		function getconfirmation(){
+		var retval=confirm("DO you want to continue?");
+			if(retval== true){
+				document.write("user want to continue!");
+				return true;
+			}else{
+				document.write("user does not want to continue!");
+				return false;	
+			}
+		}
+			</script>
+		</head>
+	<body>
+		<p>click the following button to see the result: </p>
+		</form>
+			<input type="button" value="click me" onclick="getconfirmation()"/>
+		</form>
+	</body>
+</html>
+		
